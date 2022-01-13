@@ -1,0 +1,45 @@
+.main__contactInfo {
+    max-width: 25rem;
+    width: 100%;
+}
+
+.main__contact_text {margin: 1rem;}
+
+.main__contactImage {
+    
+    display: inline;
+    width: 5rem;
+    height: auto;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0em;
+    border-radius: 0.3em;
+}
+
+.main__form {padding: .5rem;width: 100%;max-width: 25rem;}
+/* .main__formHeading {
+} */
+.main__formCol {display: flex;flex-direction: column;gap: .5rem;width: 100%;}
+/* .main__label {
+} */
+.main__input {
+    width: 15em;
+    border-radius: 0.3em;
+    border: 1px black solid;
+}
+.main__formSubmit {
+    width: 12em;
+    border-radius: 0.3em;
+    border: 0px black solid;
+    height: 2em;
+    background-color: rgb(219, 5, 137);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-wrap: wrap;
+}

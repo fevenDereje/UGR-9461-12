@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3em;
+
+}
+.makeshadow{
+    box-shadow: 0.02rem 0.02rem 0.2rem #3d3d3d;
+    border-radius: 0.5em;
+    max-width: 17em;
+    margin: 2em 1em;
+    padding: 1em;
+
+}
+.main__text1{
+    
+    padding:  1em;
+    margin-top: 1em;
+    max-width: 25em;
+    display: inline;
+    text-align-last: justify;
+    
+}
+.main__item5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+
+}
+.main__photo{
+    max-width: 6em;
+    height: auto;
+    float: left;
+    margin-right: 2em;
+    border-radius: 0.5em;
+
+}
+.titleOfService{
+    font-size: large;
+    font-weight: bold;
+}
+.main__headerText{
+    text-align: center;
+}
+

@@ -1,0 +1,84 @@
+.main__image--large{
+    margin: 0.1rem 1rem 1rem 0.1rem;
+    max-width: 20rem;
+    display: inline;
+    float: left;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 120%;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+}
+.project__item{
+    margin:1rem;
+    box-shadow: 0.02rem 0.02rem 0.2rem #3d3d3d;
+    padding:1rem;
+}
+.OngoingProjects__table--row{
+    margin: 2rem;
+}
+.selectText{
+    display: inline;
+    margin: 1rem;
+}
+.ProjectsInProgress{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+}
+.favouriteProject{
+    margin:1rem;
+    box-shadow: 0.02rem 0.02rem 0.2rem #3d3d3d;
+    padding:1rem;
+}
+.OngoingProjects{
+    display:flex;
+    flex-direction: column;
+    margin:1rem;
+    box-shadow: 0.02rem 0.02rem 0.2rem #3d3d3d;
+    padding:1rem;
+    align-items: center;
+}
+.OngoingProjects__table--row:nth-child(even){
+    background-color: #dddada;
+}
+.OngoingProjects__table--row :hover {
+    background-color: #ddd;
+}
+.OngoingProjects__table--column{
+    padding:1rem;
+}
+.OngoingProjects__table--columnhead{
+    background-color:rgb(219, 5, 137) ;
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    .project__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 760px) {
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 650px) {
+    .main{
+        line-height: 190%;
+    }
+    .ProjectsInProgress{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
